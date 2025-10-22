@@ -4,15 +4,52 @@ import matplotlib.pyplot as plt
 
 materials = [
     {
-    "name": "Copper",
-    "g_factor": 2.08,
-    "line_width_range": [2.259, 2.761],
-    "peak_intensity_range": [0.8, 1.2]
+        "name": "Copper",
+        "g_factor": 2.08,
+        "line_width_range": [2.259, 2.761],
+        "peak_intensity_range": [0.8, 1.2]
     },
-    {   "name": "Iron",
-    "g_factor": 2.10,
-    "line_width_range": [0.05, 0.2],
-    "peak_intensity_range": [0.1, 0.5]
+    {
+        "name": "Iron",
+        "g_factor": 2.10,
+        "line_width_range": [0.05, 0.2],
+        "peak_intensity_range": [0.1, 0.5]
+    },
+    {
+        "name": "Manganese",
+        "g_factor": 2.002,
+        "line_width_range": [0.5, 1.0],
+        "peak_intensity_range": [0.6, 1.0]
+    },
+    {
+        "name": "Nickel",
+        "g_factor": 2.15,
+        "line_width_range": [0.1, 0.4],
+        "peak_intensity_range": [0.3, 0.7]
+    },
+    {
+        "name": "Cobalt",
+        "g_factor": 2.20,
+        "line_width_range": [0.2, 0.6],
+        "peak_intensity_range": [0.4, 0.8]
+    },
+    {
+        "name": "Vanadium",
+        "g_factor": 1.94,
+        "line_width_range": [0.3, 0.7],
+        "peak_intensity_range": [0.5, 0.9]
+    },
+    {
+        "name": "TEMPO",
+        "g_factor": 2.005,
+        "line_width_range": [0.8, 1.2],
+        "peak_intensity_range": [0.7, 1.0]
+    },
+    {
+        "name": "DPPH",
+        "g_factor": 2.0036,
+        "line_width_range": [0.6, 1.0],
+        "peak_intensity_range": [0.6, 0.95]
     }
 ]
 
